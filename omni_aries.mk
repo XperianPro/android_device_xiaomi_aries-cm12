@@ -34,8 +34,8 @@ PRODUCT_MODEL := MI 2
 PRODUCT_MANUFACTURER := Xiaomi
 
 # Kernel inline build
-TARGET_KERNEL_CONFIG := aries_defconfig
-TARGET_VARIANT_CONFIG := aries_defconfig
-TARGET_SELINUX_CONFIG := aries_defconfig
+TARGET_KERNEL_CONFIG := cyanogen_aries_defconfig
+TARGET_VARIANT_CONFIG := cyanogen_aries_defconfig
+TARGET_SELINUX_CONFIG := cyanogen_aries_defconfig
 
 $(call inherit-product-if-exists, vendor/xiaomi/aries/aries-vendor.mk)
