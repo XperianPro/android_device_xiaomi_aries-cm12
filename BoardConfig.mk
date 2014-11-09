@@ -102,6 +102,8 @@ BOARD_HAL_STATIC_LIBRARIES := libdumpstate.aries
 BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := $(TARGET_BOARD_PLATFORM)
 TARGET_NO_RPC := true
 
+BOARD_PROVIDES_LIBRIL := true
+
 TARGET_RELEASETOOLS_EXTENSIONS := device/xiaomi/aries
 
 BOARD_SEPOLICY_DIRS += \
@@ -117,6 +119,7 @@ BOARD_SEPOLICY_UNION += \
        file.te \
        file_contexts \
        hostapd.te \
+       init.te \
        kickstart.te \
        mediaserver.te \
        mpdecision.te \
