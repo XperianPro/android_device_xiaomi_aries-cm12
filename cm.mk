@@ -1,4 +1,4 @@
-# Boot animation
+# Boot animation - test
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
